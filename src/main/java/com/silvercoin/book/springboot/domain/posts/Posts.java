@@ -33,4 +33,9 @@ public class Posts {        // 실제 DB의 테이블과 매칭되는 테이블 
         this.content = content;
         this.author = author;
     }
+
+    public void update(String title, String content){
+        this.title = title;
+        this.content = content;
+    }
 }
