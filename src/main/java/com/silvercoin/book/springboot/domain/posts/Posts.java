@@ -9,7 +9,7 @@ import javax.persistence.*;
 @Getter
 @NoArgsConstructor          // 기본 생성자 자동추가(public Posts(){} 와 같은 기능
 @Entity                     // 테이블과링크될 클래스를 나타냄
-public class Posts {        // 실제 DB의 테이블과 매칭되는 테이블 클래스(엔티티 클래스)
+public class Posts extends BaseTimeEntity {        // 실제 DB의 테이블과 매칭되는 테이블 클래스(엔티티 클래스)
     
     @Id                                                     // 해달 테이블의 PK
     @GeneratedValue(strategy = GenerationType.IDENTITY)     // PK 생성규칙
