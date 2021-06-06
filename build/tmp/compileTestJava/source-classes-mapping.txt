@@ -1,0 +1,2 @@
+com/silvercoin/book/springboot/web/HelloControllerTest.java
+ com.silvercoin.book.springboot.web.HelloControllerTest

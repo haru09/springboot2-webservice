@@ -1,0 +1,2 @@
+com/silvercoin/book/springboot/Application.java
+ com.silvercoin.book.springboot.Application
